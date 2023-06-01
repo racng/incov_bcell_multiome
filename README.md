@@ -6,7 +6,7 @@
 |File|Description|
 |-|-|
 |dl.sh|Script to download barcode metrics and ATAC and GEX BAM files.|
-|run_script.sh bcell|Script to run snakemake workflow to generate pooled VCF fileGenerate a VCF file per sample|
+|run_script.sh bcell|Script to run [snakemake workflow](https://github.com/racng/snakemake-merge-wgs) to generate pooled VCF fileGenerate a VCF file per sample|
 |config_bcell.yaml|Config file for snakemake workflow|
 |merge_bam.sh|Merge RNA and ATAC BAM files.|
 |vartrix.sh|Extract single cell variants from merged BAM file using VarTrix |
